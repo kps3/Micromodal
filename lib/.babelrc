@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": "> 0.5% in US, ie 11"
+        },
+        "modules": false,
+        "useBuiltIns": "usage",
+        "debug": true,
+        "loose": true,
+        "corejs": {
+          "version": 2,
+          "proposals": false
+        }
+      }
+    ]
+  ]
+}
