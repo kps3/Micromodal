@@ -9,7 +9,6 @@
         "modules": false,
         "useBuiltIns": "usage",
         "debug": true,
-        "loose": true,
         "corejs": {
           "version": 2,
           "proposals": false
